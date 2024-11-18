@@ -6,7 +6,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@/components/ui/sidebar"
-import { ChevronRight, Download, Fullscreen, Save, Eraser, Square, Type, Brush, Settings, Moon, Minimize2, Crop, Trash, Sparkles, Scaling, Upload, Undo, Redo, ZoomIn, ZoomOut } from "lucide-react"
+import { ChevronRight, Download, Fullscreen, Save, Eraser, Square, Type, Brush, Settings, Moon, Minimize2, Crop, Trash, Sparkles, Scaling, Upload, Undo, Redo, ZoomIn, ZoomOut, Coffee } from "lucide-react"
 
 export default function Page() {
   return (
@@ -60,8 +60,8 @@ export default function Page() {
 
         </footer>
 
-        <footer className="sticky bottom-0 flex shrink-0 items-center  border-t bg-black-100 text-gray-400 text-xs px-1 py-0.5  ">
-          <div>All rights reserved...</div>
+        <footer className="sticky bottom-0 flex shrink-0 items-center  border-t bg-black-100 text-gray-400 text-xs px-1 py-0.5 justify-end ">
+          <div> &copy; <span className="font-semibold">EDTR.</span> All rights reserved... We all <span className="text-red-600">♥</span> images.</div>
         </footer>
       </SidebarInset>
     </SidebarProvider>
